@@ -1,0 +1,67 @@
+Bonsoir bonsoir, je vais essayer de vous detailler au max mon ressenti et mes difficultes (pas specialement nombreuses mais bien corriaces)sur ce tp !
+
+Ex 1.1.1
+
+J ai pas eu forcement de difficultes sur cet exo, c etait pas le premier de ce style que l on voyait. Bon echauffement. 
+
+Ex 1.1.2
+
+Pas de difficultes particulieres sur cet exo non plus si ce n est le retour a la ligne. 20 min pour comprendre le fonctionnement de quelque chose aussi simple, ce n est pas vraiment un plaisir a vivre. 
+
+Ex 1.1.3 
+
+C est sur cet exo que j ai eu la chance de rencontrer une premiere difficulte : Comment inverser l ordre des caracteres a chaque ligne. 
+Finallement avec un peu reflexion, j ai essaye de definir deux fonctions differentes et de jouer sur la parite de chaque ligne. Delivrance : Ca fonctionne ! 
+
+Ex 1.1.4 
+
+C est ainsi que nous arrivons sur une maltraitance de tout ce qui a pu se trouver sur mon bureau le jour j : J ai eu la chance apres un peu de reflexion de trouver le bon code pour dessiner ce triangle, cependant quelle fut ma surpise et quel fut mon plaisir en decouvrant que le triangle se faisait a l envers ! Essayant de repartir sur de bonnes bases je modifie mon code (logique), et apres quelques temps de reflexion, persuade d avoir trouve la solution a mon probleme, je pratique le fameux Cc Ce sur mon magnifique nouveau code : Overflow. Je re reflechis donc, tente pas mal de modifications mais rien a faire, la j avoue que le clavier et la souris ont paye pour moi, l imbecile qui se trompe de valeur dans son cas d arret depuis le debut ! Celle la etait pas mal j avoue. 
+
+Ex 1.2.1 
+
+Etonnement, la pyramyde m a paru assez simple, je n ai pas vraiment de rencontrer de difficultes dessus et j avoue que j ai pas de blagues en stock pour le coup, je m en excuse
+
+Ex 1.2.2
+
+Alors la cross ca a ete une autre histoire. Je pense que si quelqu un avait essaye de venir me parler pendant les deux jours ou j ai essaye de faire cette croix (j essaye de rester poli et cordial le plus possible actuellement par ce que j ai vraiment encore bien les nerfs), il n en serait pas ressorti indemne. Bref, du coup en voyant la croix, le code me parait logique, je teste une premiere version dans laquelle je me rends compte que je vais malheureusement devoir faire la ligne du milieu separemment de mes codes pour le haut et le bas de la croix. Je fais donc mon code du milieu, je rencontre deux trois problemes de synthaxes entre temps mais rien de tres fou. Finalement apres une apres midi de travail j atteins mon objectif. Le lendemain je reprends le travail et je re test ma fonction une derniere fois mais cette fois en me disant : Et si j essayais avec autre chose que x = 5 et x = 6, Je teste donc avec x =15 : Evidemment plus rien ne fonctionne. Il m aura donc fallu toute une journee pour me rendre compte que ma valeur du milieu au depart ne vallait pas x-(x/2) mais bien (2x-3), ce qui a bien evidemment tout changer ! 
+
+Exercice 2.1.1
+
+Pour cet exo, je n ai pas rencontre de difficultess vraiment insurmontables, je dirai que la principale a ete de prendre en main le langage et de comprendre qu avec la reccursion je n avais besoin de mettre des lineto partout pour demander a ma fonction de tracer ce dont j avais besoin. 
+
+Exercie 2.1.2
+
+Pour cet exo j ai tout simplement suivi la methode, le principal probleme que j ai pu avoir a ete celui du dernier in dans lequel je me suis un peu embrouille les pinceaux avec le couple (z,t) et le couple (u,v) 
+
+Exercice 2.2.1
+
+Selon moi c est avec cet exo que l on rentre vraiment dans le vif du sujet, prive de la partie "methode" il fallait avoir compris parfaitement le fonctionnement du langage. Chose que je pensais etre le cas mais qui finalement ne l etait pas completement. En effet il m'a d'abbord fallut comprendre que l eponge ete constitue de plusieurs carres qui, recursivement parlant, ete eux memes constitues de plusieurs carres. Une fois cela compris, j ai remarque qu il me suffisait de trace un grand carre en divisant chaque cote de ce dernier par trois carres qui eux memes etaient constitues de crois carres etc etc ... 
+Desormais, il fallait donc que je travaille sur comment traces ces carres, c'est ainsi que, etant donne qu'on faisait 3 carres dans 3 carres etc... , j'ai pense a creer une valeur qui faisait 1/3 du cote du carre. Ainsi il ne me suffisait plus que d'appliquer cette valeur a chaque cote du carre recursivement afin de faire des carres dans des carres dont les cotes faisaient exactement 1/3 du cote dans lequel ils etaient contenus ! 
+
+Exerice 2.2.2
+
+Pour le triangle, j'ai tout de suite essaye de reprendre le principe de l eponge mais avec des triangles isoceles. Le depart a ete un peu delicat etant donne que j'ai eu un peu de mal a mettre mon carre du bon sens, allez savoir pourquoi ce n'etait rien de complique ... surement la fatigue. Finalement, une fois le carre bien positionne, tout fonctionnait parfaitement ! 
+
+Exercice 2.3.1
+
+En toute transparence, quand j'ai vu la tete de la figure, je me suis dit "mais c'est quoi cette chose comment je vais me debrouiller pour reussir a faire un cercle moi"
+Finalement, apres pas mal de tentatives, tous etant des echecs, je suis crier a l'aide, la reponse a ma question fut tout simplement "Ba il y a une fonction draw_circle" un peu etonne, je suis parti demande a Paul (dedicace si c'est toi qui t'occupes de mon tp ;) ) si je pouvais utiliser cette fameuse fonction, la reponse etant positive je me suis lance. J'avoue m'etre un peu embrouille avec les rayons qui m'ont cause de tois overflow mais si non tout s'est plus tot bien passe ! 
+
+Exercice 2.3.2
+
+Le principe du l'exercice a ete un peu complique a comprendre, j'avoue avoir demande de l'aide pour comprendre quelles devaient etre mes conditions dans mon match with car mon code etait bon mais mes conditions ne l'etaient pas. C'est a ce moment la que l'on m'a explique que je devais rajouter une derniere valeur indiquant a mon algo dans quelle direcection ma fleche devait pointer. Une fois deux trois lignes modifies afin d'appliquer cette derniere variable, mon code ne fonctionnait plus vraiment : Les cercles continuaient de se tracer finissant par former un grand cercle tout noir. J'ai donc essaye d'additioner la moitie de mon rayon au rayon,deja additione, et tout a fonctionne. En conclusion je dirais que l'exercice etait pas le plus complique a proporement parle mais il etait tres prise de tete !
+
+Exerce 2.3.3
+
+La question d'angle me gene un peu et j'essaye de voir comment je pourrais la traduire mais pour l'instant c'est pas ca 
+
+Exercice 2.3.4
+
+Je pense honnetement que c'est l'exo qui m'a cause le moins de problemes si ce n'est aucun en fait. 
+Merci a vous pour cet exo ce fut un plaisir de le realiser ! 
+
+Exercie 2.3.5
+
+Alors pour celui la je m'avoue vaincu, je ne sais meme pas quoi ecrire. J'en viens a douter de l'efficacite du "let". 
+Bravo a vous, c'est un K.O technique pour moi ... 
+
